@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1201C030174BF7390082C47D /* FlipView_4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1201C02F174BF7390082C47D /* FlipView_4.xib */; };
+		1201C032174BFB560082C47D /* FlipView_4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1201C031174BFB560082C47D /* FlipView_4.xib */; };
 		12101E42174A947B00D793E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12101E41174A947B00D793E2 /* UIKit.framework */; };
 		12101E44174A947B00D793E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12101E43174A947B00D793E2 /* Foundation.framework */; };
 		12101E46174A947B00D793E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12101E45174A947B00D793E2 /* CoreGraphics.framework */; };
@@ -28,7 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1201C02F174BF7390082C47D /* FlipView_4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlipView_4.xib; path = ../FlipView_4.xib; sourceTree = "<group>"; };
+		1201C031174BFB560082C47D /* FlipView_4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipView_4.xib; sourceTree = "<group>"; };
 		12101E3E174A947B00D793E2 /* GestureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12101E41174A947B00D793E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		12101E43174A947B00D793E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,7 +109,7 @@
 				12101E5D174A947B00D793E2 /* ViewController.m */,
 				12101E48174A947B00D793E2 /* Supporting Files */,
 				12101E69174AC73A00D793E2 /* FlipView.xib */,
-				1201C02F174BF7390082C47D /* FlipView_4.xib */,
+				1201C031174BFB560082C47D /* FlipView_4.xib */,
 				12101E6B174AC75E00D793E2 /* FlipView.h */,
 				12101E6C174AC75E00D793E2 /* FlipView.m */,
 				12101E6E174AD45A00D793E2 /* CustomView.xib */,
@@ -192,7 +192,7 @@
 				12101E65174A952200D793E2 /* chrome.png in Resources */,
 				12101E6A174AC73A00D793E2 /* FlipView.xib in Resources */,
 				12101E6F174AD45A00D793E2 /* CustomView.xib in Resources */,
-				1201C030174BF7390082C47D /* FlipView_4.xib in Resources */,
+				1201C032174BFB560082C47D /* FlipView_4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
