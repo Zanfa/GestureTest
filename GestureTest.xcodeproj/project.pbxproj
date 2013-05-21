@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1201C030174BF7390082C47D /* FlipView_4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1201C02F174BF7390082C47D /* FlipView_4.xib */; };
 		12101E42174A947B00D793E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12101E41174A947B00D793E2 /* UIKit.framework */; };
 		12101E44174A947B00D793E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12101E43174A947B00D793E2 /* Foundation.framework */; };
 		12101E46174A947B00D793E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12101E45174A947B00D793E2 /* CoreGraphics.framework */; };
@@ -18,9 +19,16 @@
 		12101E58174A947B00D793E2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12101E57174A947B00D793E2 /* Default-568h@2x.png */; };
 		12101E5B174A947B00D793E2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12101E59174A947B00D793E2 /* MainStoryboard.storyboard */; };
 		12101E5E174A947B00D793E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12101E5D174A947B00D793E2 /* ViewController.m */; };
+		12101E65174A952200D793E2 /* chrome.png in Resources */ = {isa = PBXBuildFile; fileRef = 12101E64174A952200D793E2 /* chrome.png */; };
+		12101E6A174AC73A00D793E2 /* FlipView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12101E69174AC73A00D793E2 /* FlipView.xib */; };
+		12101E6D174AC75E00D793E2 /* FlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12101E6C174AC75E00D793E2 /* FlipView.m */; };
+		12101E6F174AD45A00D793E2 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12101E6E174AD45A00D793E2 /* CustomView.xib */; };
+		12101E72174AD6B000D793E2 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 12101E71174AD6B000D793E2 /* CustomView.m */; };
+		1272B21E174AF49E003C1585 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1272B21D174AF49E003C1585 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1201C02F174BF7390082C47D /* FlipView_4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FlipView_4.xib; path = ../FlipView_4.xib; sourceTree = "<group>"; };
 		12101E3E174A947B00D793E2 /* GestureTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GestureTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12101E41174A947B00D793E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		12101E43174A947B00D793E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +45,14 @@
 		12101E5A174A947B00D793E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		12101E5C174A947B00D793E2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		12101E5D174A947B00D793E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12101E64174A952200D793E2 /* chrome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chrome.png; sourceTree = "<group>"; };
+		12101E69174AC73A00D793E2 /* FlipView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipView.xib; sourceTree = "<group>"; };
+		12101E6B174AC75E00D793E2 /* FlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipView.h; sourceTree = "<group>"; };
+		12101E6C174AC75E00D793E2 /* FlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipView.m; sourceTree = "<group>"; };
+		12101E6E174AD45A00D793E2 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
+		12101E70174AD6B000D793E2 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		12101E71174AD6B000D793E2 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		1272B21D174AF49E003C1585 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1272B21E174AF49E003C1585 /* QuartzCore.framework in Frameworks */,
 				12101E42174A947B00D793E2 /* UIKit.framework in Frameworks */,
 				12101E44174A947B00D793E2 /* Foundation.framework in Frameworks */,
 				12101E46174A947B00D793E2 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +73,7 @@
 		12101E35174A947B00D793E2 = {
 			isa = PBXGroup;
 			children = (
+				1272B21D174AF49E003C1585 /* QuartzCore.framework */,
 				12101E47174A947B00D793E2 /* GestureTest */,
 				12101E40174A947B00D793E2 /* Frameworks */,
 				12101E3F174A947B00D793E2 /* Products */,
@@ -83,12 +101,20 @@
 		12101E47174A947B00D793E2 /* GestureTest */ = {
 			isa = PBXGroup;
 			children = (
+				12101E64174A952200D793E2 /* chrome.png */,
 				12101E50174A947B00D793E2 /* AppDelegate.h */,
 				12101E51174A947B00D793E2 /* AppDelegate.m */,
 				12101E59174A947B00D793E2 /* MainStoryboard.storyboard */,
 				12101E5C174A947B00D793E2 /* ViewController.h */,
 				12101E5D174A947B00D793E2 /* ViewController.m */,
 				12101E48174A947B00D793E2 /* Supporting Files */,
+				12101E69174AC73A00D793E2 /* FlipView.xib */,
+				1201C02F174BF7390082C47D /* FlipView_4.xib */,
+				12101E6B174AC75E00D793E2 /* FlipView.h */,
+				12101E6C174AC75E00D793E2 /* FlipView.m */,
+				12101E6E174AD45A00D793E2 /* CustomView.xib */,
+				12101E70174AD6B000D793E2 /* CustomView.h */,
+				12101E71174AD6B000D793E2 /* CustomView.m */,
 			);
 			path = GestureTest;
 			sourceTree = "<group>";
@@ -163,6 +189,10 @@
 				12101E56174A947B00D793E2 /* Default@2x.png in Resources */,
 				12101E58174A947B00D793E2 /* Default-568h@2x.png in Resources */,
 				12101E5B174A947B00D793E2 /* MainStoryboard.storyboard in Resources */,
+				12101E65174A952200D793E2 /* chrome.png in Resources */,
+				12101E6A174AC73A00D793E2 /* FlipView.xib in Resources */,
+				12101E6F174AD45A00D793E2 /* CustomView.xib in Resources */,
+				1201C030174BF7390082C47D /* FlipView_4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +206,8 @@
 				12101E4E174A947B00D793E2 /* main.m in Sources */,
 				12101E52174A947B00D793E2 /* AppDelegate.m in Sources */,
 				12101E5E174A947B00D793E2 /* ViewController.m in Sources */,
+				12101E6D174AC75E00D793E2 /* FlipView.m in Sources */,
+				12101E72174AD6B000D793E2 /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,10 +303,14 @@
 		12101E63174A947B00D793E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Vahur Roosimaa (PEPLFV7FZW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Vahur Roosimaa (PEPLFV7FZW)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GestureTest/GestureTest-Prefix.pch";
 				INFOPLIST_FILE = "GestureTest/GestureTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E0F174A5-5808-4B65-B2F4-75C346EF80D6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E0F174A5-5808-4B65-B2F4-75C346EF80D6";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -298,6 +334,7 @@
 				12101E63174A947B00D793E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

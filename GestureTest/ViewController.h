@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+#import "FlipView.h"
+
 @interface ViewController : UIViewController
+
+@property (strong, nonatomic) FlipView *currentView;
+@property (strong, nonatomic) FlipView *nextView;
+
+@property (strong, nonatomic) IBOutlet UIView *viewStack;
+
+- (IBAction)swipe:(id)sender;
 
 @end
